@@ -1,0 +1,24 @@
+# Aturan khusus ada di backend/.gitignore dan mobile/.gitignore
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor
+.idea/
+*.iml
+.vscode/
+
+# Log
+*.log
+
+# Python (skrip skill)
+__pycache__/
+
+# Tidak diunggah ke GitHub
+docs/
+bugandroid.jpeg
+.claude/
+.agents/
+CLAUDE.md
