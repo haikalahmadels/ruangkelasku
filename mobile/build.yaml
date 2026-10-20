@@ -1,0 +1,8 @@
+targets:
+  $default:
+    builders:
+      json_serializable:
+        options:
+          # Field JSON API selalu snake_case (docs/architecture.md).
+          field_rename: snake
+          explicit_to_json: true
